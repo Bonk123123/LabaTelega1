@@ -20,7 +20,7 @@ def url(message):
 @bot.message_handler(commands=['repository'])
 def url(message):
     bot.send_message(message.from_user.id,
-                     "https://github.com/Bonk123123?tab=repositories")
+                     "https://github.com/Bonk123123/LabaTelega1")
 
 
 @bot.message_handler(commands=['image'])
@@ -42,7 +42,7 @@ def url(message):
 def url(message):
     if message.text == 'repository':
         bot.send_message(message.from_user.id,
-                         "https://github.com/Bonk123123?tab=repositories")
+                         "https://github.com/Bonk123123/LabaTelega1")
 
     if message.text == 'image':
         dlinna = random.randrange(400, 600, 10)
